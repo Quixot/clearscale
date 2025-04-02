@@ -1,0 +1,24 @@
+Metadata-Version: 2.4
+Name: clearscale
+Version: 0.1.0
+Summary: A tiny Python library to compare magnitudes of time and other units in a human-readable way.
+Author-email: Александр <your@email.com>
+License: MIT
+Project-URL: Homepage, https://github.com/Quixot/clearscale
+Project-URL: Repository, https://github.com/Quixot/clearscale
+Project-URL: Bug Tracker, https://github.com/Quixot/clearscale/issues
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Dynamic: license-file
+
+# clearscale
+
+**clearscale** — это лёгкая библиотека для Python, которая помогает понять и визуально оценить разницу между величинами (время, байты и т.д.) в человекочитаемом виде.
+
+## Пример
+
+```python
+from clearscale import how_much_bigger
+
+how_much_bigger("40ms", "100ns")  # → "400 000x"

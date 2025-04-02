@@ -1,0 +1,2 @@
+[console_scripts]
+clearscale = clearscale.__main__:main
