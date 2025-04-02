@@ -1,0 +1,19 @@
+[project]
+name = "clearscale"
+version = "0.1.0"
+description = "A tiny Python library to compare magnitudes of time and other units in a human-readable way."
+authors = [
+    { name="Александр", email="your@email.com" }
+]
+license = {text = "MIT"}
+readme = "README.md"
+requires-python = ">=3.8"
+
+[project.urls]
+"Homepage" = "https://github.com/Quixot/clearscale"
+"Repository" = "https://github.com/Quixot/clearscale"
+"Bug Tracker" = "https://github.com/Quixot/clearscale/issues"
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
