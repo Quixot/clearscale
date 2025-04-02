@@ -8,5 +8,6 @@ clearscale.egg-info/PKG-INFO
 clearscale.egg-info/SOURCES.txt
 clearscale.egg-info/dependency_links.txt
 clearscale.egg-info/entry_points.txt
+clearscale.egg-info/requires.txt
 clearscale.egg-info/top_level.txt
 tests/test_basic.py

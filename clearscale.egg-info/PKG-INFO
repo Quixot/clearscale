@@ -2,7 +2,7 @@ Metadata-Version: 2.4
 Name: clearscale
 Version: 0.1.0
 Summary: A tiny Python library to compare magnitudes of time and other units in a human-readable way.
-Author-email: Александр <your@email.com>
+Author-email: Aleksandr Volkov <alexandr.volkov@gmail.com>
 License: MIT
 Project-URL: Homepage, https://github.com/Quixot/clearscale
 Project-URL: Repository, https://github.com/Quixot/clearscale
@@ -10,6 +10,11 @@ Project-URL: Bug Tracker, https://github.com/Quixot/clearscale/issues
 Requires-Python: >=3.8
 Description-Content-Type: text/markdown
 License-File: LICENSE
+Requires-Dist: colorama>=0.4
+Provides-Extra: dev
+Requires-Dist: pytest; extra == "dev"
+Requires-Dist: build; extra == "dev"
+Requires-Dist: twine; extra == "dev"
 Dynamic: license-file
 
 # clearscale

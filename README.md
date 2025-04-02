@@ -1,8 +1,8 @@
 # clearscale
 
-**clearscale** — это лёгкая библиотека для Python, которая помогает понять и визуально оценить разницу между величинами (время, байты и т.д.) в человекочитаемом виде.
+**`clearscale`** is a lightweight Python library that helps you understand and visually compare differences between values (like time, bytes, etc.) in a human-readable way.
 
-## Пример
+## Simple example
 
 ```python
 from clearscale import how_much_bigger

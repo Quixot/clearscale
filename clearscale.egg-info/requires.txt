@@ -1,0 +1,6 @@
+colorama>=0.4
+
+[dev]
+pytest
+build
+twine

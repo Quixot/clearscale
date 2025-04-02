@@ -3,11 +3,14 @@ name = "clearscale"
 version = "0.1.0"
 description = "A tiny Python library to compare magnitudes of time and other units in a human-readable way."
 authors = [
-    { name="Александр", email="your@email.com" }
+    { name="Aleksandr Volkov", email="alexandr.volkov@gmail.com" }
 ]
 license = {text = "MIT"}
 readme = "README.md"
 requires-python = ">=3.8"
+dependencies = [
+    "colorama>=0.4"
+]
 
 [project.urls]
 "Homepage" = "https://github.com/Quixot/clearscale"
@@ -22,8 +25,5 @@ build-backend = "setuptools.build_meta"
 clearscale = "clearscale.__main__:main"
 
 [project.optional-dependencies]
-dev = ["pytest", "colorama"]
-
-[project.dependencies]
-colorama = "^0.4"
+dev = ["pytest", "build", "twine"]
 
